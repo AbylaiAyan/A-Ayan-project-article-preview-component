@@ -1,0 +1,150 @@
+
+
+body{
+    background-color: #edf2f8;
+    font-family: verdana;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+.border{
+    /* position:relative; */
+    background-color: white;
+    border: 1px none;
+    border-radius: 10px;
+    width: 750px;
+    height: 260px;
+    margin-top: 240px;
+    margin-left: 370px;
+}
+#left-image{
+    float: left;
+    margin-right: 40px;
+}
+.text{
+    padding: 20px;
+    font-size: 12px;
+    color: #7f838c;
+}
+.text h3{
+    font-size: 18px;
+    color: #495261;
+}
+#avatar{
+    border-radius: 100px;
+    float: left;
+    margin-right: 10px;
+}
+#autor{
+    padding: 10px;
+    line-height: 0;
+}
+#autor h4{
+    color: #495261;
+}
+#share{
+    float: right;
+    border: none;
+    border-radius: 100px;
+    width: 30px;
+    height: 30px;
+    margin-top: -35px;
+    margin-right: 20px;
+}
+
+
+/*  js code CSS3 */
+
+.sharejs {
+  position: relative;
+  height: 50px;
+  width: 35%;
+  background-color: #434f61;
+  border:1px;
+  border-radius: 10px;
+  margin-left: 540px;
+  margin-top: -125px;
+  visibility: hidden;
+
+}
+
+.textshare {
+  position: absolute;
+  left: 15%;
+  top:10%;
+  font-size: 13px;
+}
+
+#textShT {
+  text-transform: uppercase;
+  color: #758396;
+}
+
+.facebookIcon {
+  position: absolute;
+  left: 48%;
+  top: 30%;
+}
+
+.twitterIcon {
+  position: absolute;
+  left: 61.5%;
+  top: 30%;
+}
+
+.pinterestIcon {
+  position: absolute;
+  left: 75%;
+  top: 30%;
+
+}
+
+.tri {
+  /* position: absolute;
+  width: 20px;
+  left: 42%;
+  top: 47px;
+  border: 10px solid transparent;
+  border-top: 20px solid #434f61; */
+  position: absolute;
+  left: 44%;
+  top: 47px;
+	width: 0px;
+	height: 0px;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 20px solid #434f61;
+
+}
+
+
+.jsbotton1:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+/* чтобы сделать видимым и они используются в джаве скрипте  */
+.toVisible {
+  visibility: visible;
+}
+
+/* .totop {
+  float: right;
+  border: none;
+  border-radius: 100px;
+  width: 30px;
+  height: 30px;
+  margin-top: -35px;
+  margin-right: 20px;
+  z-index: 2;
+  position: absolute;
+  top: 59%;
+  left: 70%;
+  background: hsl(212, 23%, 69%);
+} */
+
+/*  */
