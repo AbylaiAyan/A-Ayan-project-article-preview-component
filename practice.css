@@ -104,12 +104,6 @@ body{
 }
 
 .tri {
-  /* position: absolute;
-  width: 20px;
-  left: 42%;
-  top: 47px;
-  border: 10px solid transparent;
-  border-top: 20px solid #434f61; */
   position: absolute;
   left: 44%;
   top: 47px;
@@ -132,19 +126,6 @@ body{
   visibility: visible;
 }
 
-/* .totop {
-  float: right;
-  border: none;
-  border-radius: 100px;
-  width: 30px;
-  height: 30px;
-  margin-top: -35px;
-  margin-right: 20px;
-  z-index: 2;
-  position: absolute;
-  top: 59%;
-  left: 70%;
-  background: hsl(212, 23%, 69%);
-} */
+
 
 /*  */
